@@ -94,3 +94,10 @@ Page 3 (Shop) - Contains a sign up button at the top to promote merchndise for c
  mechandise.
 
  Balsamiq Wireframes: 
+
+ Credits
+
+ 1)Media
+
+ Images
+ https://www.gq-magazine.co.uk/gq-hype/article/iamddb-interview
