@@ -106,7 +106,6 @@ Page 3 (Shop) - Contains a sign up button at the top to promote merchndise for c
 
  Balsamiq Wireframes: 
 
- ### Wireframes
 > - [Wireframes](docs/IAMDDB-Wireframe.pdf): Rough designs of how I egitnvisioned my website to be and the layout of it.
 
 Features:
