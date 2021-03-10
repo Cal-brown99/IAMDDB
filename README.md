@@ -142,6 +142,26 @@ Technologies & sites used:
  and what I could do to manipulate it. It's great to use this as you can edit the website in real time then
  when you have what you want being displayed, then you can input the code into github.
 
+ Deployement:
+
+1) Publishing
+ 
+This website was published using GitHub Pages, by going onto the website and loggin on, then go to the repositories
+on the left (Mine will be IAMDDB). Scroll down to github pages and click on the dropdown, selecting 'master branch' 
+The page will take a while to upload, but it'll be published after that.
+
+2) Forking
+
+If you wish to contribute to this website you can Fork it without affecting the main branch by looking for the fork button
+to the right of the repository name, this will create a copy in your personal repository. Once you're finished making changes
+you can try and find the 'New Pull Request' button just above the file in the original repository.
+
+3) Cloning
+
+Just directly below the repository name there should be a clone or download button in green, click clone with https. After that
+go to a directory where the clone is wanting to be copied into.
+Type `Git Clone` and paste the URL, for your local clone simply press enter.
+
  Credits
 
  1)Media
