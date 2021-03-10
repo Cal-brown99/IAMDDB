@@ -2,14 +2,133 @@
 
 /*------------------------------------------------------------------------Colors */
 
-.bg-title {
+.bg-title-home {
     background: url("../images/Home header.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-home {
+       min-height: 225px;
+       background-size: 420px;
+    }
+}
+
+.bg-title-music {
+    background: url("../images/Music header.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 720px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-music {
+        min-height: 225px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 420px;
+    }
+} 
+
+.bg-title-shop {
+    background: url("../images/Shop header.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 1500px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-shop {
+        min-height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+} 
+
+.bg-title-basket {
+    background: url("../images/Basket header.jpg");
     background-position: center;
     background-size: cover;
     min-height: 1080px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-basket {
+       min-height: 225px;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-size: 600px;
+    }
+}
+
+.bg-title-sweaters {
+    background: url("../images/sweaters header.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 720px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-sweaters {
+       min-height: 225px;
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-size: 600px;
+    }
+}
+
+.bg-title-hoodies {
+    background: url("../images/Hoodie header.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 720px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bg-title-t-shirts {
+    background: url("../images/T-shirt header.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 1280px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .bg-title-t-shirts {
+       min-height: 225px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-size: 420px;
+    }
 }
 
 /*------------------------------------------------------------------------Heading */
@@ -23,44 +142,47 @@ header {
    color: transparent;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown:hover .dropdown-toggle {
-    color: #3B4242;
-}
-
-.dropdown {
-    margin-right: 30px;
-}
-
-.dropdown-toggle {
-    color: #3B4242;
-    font-size: 18px;
-}
-
-.dropdown-menu {
-    background-color: #3B4242;
-    color: #3B4242;
-    font-size: 16px;
-    border: none;
-    margin-top: -35px;
-}
-
-.dropdown-item {
-    color: #F7F9F9;
-    padding: 5px;
-}
-
 .title {
-    text-align: center;
+    text-align: left;
     color: #F7F9F9;
     font-family: "Lobster", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 30px;
     margin-left: 80px;
+    max-width: 175px;
+}
+
+@media (max-width:600px) {
+    .title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
+.bg-light {
+    background-color: transparent!important; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F7F9F9;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F7F9F9;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #F7F9F9;
+}
+
+.navbar-light .navbar-nav .icon-header {
+    color: black;
 }
 
 a:link {
@@ -81,11 +203,912 @@ a:active {
 
 .basket {
     color: #3B4242;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute; left: 30px;
     position: inline;
+    margin-top: 30px;
+    
 }
 
 .basket:hover {
     color: #B8C6C6;
+}
+
+/*------------------------------------------------------------------------Home section 1 */
+
+.home-section-image1 {
+    background: url("../images/Home section image 1.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    min-height: 650px;
+}
+
+.bio-text1 {
+    background-color: #3B4242;
+    font-size: 30px;
+    color: #B57A42;
+    font-family: Lobster, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.quote1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.quote2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.bio-text2 {
+    background-color: #3B4242;
+    font-size: 30px;
+    color: #B57A42;
+    font-family: Lobster, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.home-section-image2 {
+    background: url("../images/Home section image 2.png");
+    background-size: cover;
+    background-position: left;
+    min-height: 650px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .home-section-image2 {
+        max-width: 375px;
+        background-position: center;
+    }
+}
+
+/*------------------------------------------------------------------------Music section 1 */
+
+.music-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lobster", sans-serif;
+    color: #B57A42;
+    padding: 50px;
+}
+
+.album-img-1 {
+    background: url("../images/Music album 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.album-img-2 {
+    background: url("../images/Music album 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.album-img-3 {
+    background: url("../images/Music album 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.album-img-4 {
+    background: url("../images/Music album 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.album-img-5 {
+    background: url("../images/Music album 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.single-img-1 {
+    background: url("../images/Music single 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.single-img-2 {
+    background: url("../images/Music single 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.single-img-3 {
+    background: url("../images/Music single 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.single-img-4 {
+    background: url("../images/Music single 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.single-img-5 {
+    background: url("../images/Music single 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.card-title {
+    font-family: "Lobster", sans-serif;
+    font-size: 24px;
+    color: #B57A42;
+}
+
+.card-title-shop {
+    font-family: "Lobster", sans-serif;
+    font-size: 32px;
+    color: #B57A42;
+    text-decoration: underline;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.music-link-spotify {
+    color: #1DD760;
+    font-size: 20px;
+}
+
+.music-link-apple {
+    color: #888888;
+    font-size: 20px;
+}
+
+.music-link-spotify:hover {
+    color: #B57A42;
+}
+
+.music-link-apple:hover {
+    color: #B57A42;
+}
+
+/*------------------------------------------------------------------------Shop section 1 */
+
+.Shop-model-1 {
+    background: url("../images/Shop model 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 535px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.Shop-model-2 {
+    background: url("../images/Shop model 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 535px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.Shop-model-3 {
+    background: url("../images/Shop model 3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 535px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.shop-content {
+    background-color: #3B4242;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: #F7F9F9;
+}
+
+.hoodie-img-1 {
+    background: url("../images/hoodie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-1 {
+    background: url("../images/t-shirt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-1 {
+    background: url("../images/sweater.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.card-title-shop:hover {
+    color: #3B4242;
+}
+
+.hoodie-img-2 {
+    background: url("../images/hoodie 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-2 {
+    background: url("../images/t-shirt 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-2 {
+    background: url("../images/sweater 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-1:hover {
+    background: url("../images/hoodie back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-2:hover {
+    background: url("../images/hoodie back 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-1:hover {
+    background: url("../images/t-shirt back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-2:hover {
+    background: url("../images/t-shirt back 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-1:hover {
+    background: url("../images/sweater back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-2:hover {
+    background: url("../images/sweater back 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*------------------------------------------------------------------------Basket */
+
+.basket-sign-up {
+    color: #3B4242;
+    text-align: center;
+    padding: 40px;
+}
+
+@media (max-width:600px) {
+    .basket-sign-up h1 {
+        font-size: 20px;
+    }
+}
+
+.form-group {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3B4242;
+    text-align: center;
+}
+
+.form-control {
+    width: 30%;
+}
+
+.btn-primary {
+    background-color: #3B4242;
+    color: #F7F9F9;
+}
+
+@media (max-width:600px) {
+    .btn-primary {
+        margin-left: 20px;
+    }
+}
+
+.btn-primary:hover {
+    background-color: #B57A42;
+}
+
+.cart-title {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #3B4242;
+}
+
+.cart-empty {
+    padding-left: 40px;
+    color: #3B4242;
+}
+
+.unavailable-content {
+    background-color: #3B4242;
+    color: #B57A42;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+}
+
+/*------------------------------------------------------------------------Sweater page */
+
+.sweater-title {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    text-decoration: underline;
+    color: #B57A42;
+    padding: 50px;
+}
+
+.sweater-img-1 {
+    background: url("../images/sweater.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-1:hover {
+    background: url("../images/sweater back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-3 {
+    background: url("../images/sweater 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-3:hover {
+    background: url("../images/sweater back 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-4 {
+    background: url("../images/sweater 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-4:hover {
+    background: url("../images/sweater back 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-5 {
+    background: url("../images/sweater 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-5:hover {
+    background: url("../images/sweater back 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-6 {
+    background: url("../images/sweater 6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-img-6:hover {
+    background: url("../images/sweater back 6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.sweater-section {
+    padding-bottom: 30px;
+}
+
+/*------------------------------------------------------------------------Hoodie page */
+
+.hoodies-title {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    text-decoration: underline;
+    color: #B57A42;
+    padding: 50px;
+}
+
+.hoodie-img-1 {
+    background: url("../images/hoodie.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-1:hover {
+    background: url("../images/hoodie back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-3 {
+    background: url("../images/hoodie 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-3:hover {
+    background: url("../images/hoodie back 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-4 {
+    background: url("../images/hoodie 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-4:hover {
+    background: url("../images/hoodie back 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-5 {
+    background: url("../images/hoodie 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-img-5:hover {
+    background: url("../images/hoodie back 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hoodie-section {
+    padding-bottom: 30px;
+}
+
+/*------------------------------------------------------------------------T-shirts */
+
+.t-shirts-title {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    text-decoration: underline;
+    color: #B57A42;
+    padding: 50px;
+}
+
+.t-shirt-img-1 {
+    background: url("../images/t-shirt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-1:hover {
+    background: url("../images/t-shirt back 1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-3 {
+    background: url("../images/t-shirt 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-3:hover {
+    background: url("../images/t-shirt back 3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-4 {
+    background: url("../images/t-shirt 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-4:hover {
+    background: url("../images/t-shirt back 4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-5 {
+    background: url("../images/t-shirt 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-img-5:hover {
+    background: url("../images/t-shirt back 5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 426px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.t-shirt-section {
+    padding-bottom: 30px;
+}
+
+/*------------------------------------------------------------------------Footer */
+
+footer {
+    background-color: #F7F9F9;
+    padding: 50px;
+    color: #3B4242;
+}
+
+.footer-positioning {
+    text-align: center;
+    background-color: #B57A42;
+    color: #3B4242;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-positioning-shop {
+    text-align: center;
+    background-color: #B57A42;
+    color: #3B4242;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    .footer-positioning-shop {
+        margin-top: -22px;
+    }
+}
+
+.footer-content {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: #B57A42;
+    color: #3B4242;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}
+
+.footer-title {
+    font-weight: bolder;
+}
+
+.icon-title {
+    text-align: center;
+    text-underline-position: below;
+    text-decoration: underline;
+    padding-bottom: 30px;
+    color: #3B4242;
+}
+
+.icon-position {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 40px;
+    color: #3B4242;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.icons i:hover {
+    color: #B57A42;
 }
