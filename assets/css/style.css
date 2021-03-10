@@ -267,18 +267,12 @@ a:active {
     background: url("../images/Home section image 2.png");
     background-size: cover;
     background-position: left;
+    background-position: center;
     min-height: 650px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-@media (max-width:600px) {
-    .home-section-image2 {
-        max-width: 375px;
-        background-position: center;
-    }
 }
 
 /*------------------------------------------------------------------------Music section 1 */
