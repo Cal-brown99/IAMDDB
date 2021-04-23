@@ -1,17 +1,24 @@
+<h1> IAMDDB's fan website </h1>
+
+<h2> MS1 project - User centric front-end development </h2>
+
 This is a fan website for the up and coming artist IAMDDB, it is designed for new fans to get
 to know the artist a little more as a person as well as discovering more of her music. On top
 of that there's a page for all of her merchandise to promote the artist further and to bring 
 the fans closer to her.
 
+
+<h3>
 Table of contents:
+</h3>
 
 1) UX
 
-Strategy
-Scope
-Structure
-Skeleton
-Surface
+- Strategy
+- Scope
+- Structure
+- Skeleton
+- Surface
 
 2) Features
 
@@ -24,35 +31,36 @@ Surface
 6) Credit
 
 
-User Experience (UX)
+<h2>User Experience (UX)</h2>
 
-Strategy:
-
+<h3>Strategy:</h3>
+<p>
 I understand that my target audience is fans of the artist who're general consumers. With this in mind
 I need to make the website very easy on the eyes with pretty colours and features, as well as being
 effortless to navigate through the different pages. 
-
+</p>
+<p>
 I have researched IAMDDB to get a feel for her personality and characteristics to try and implement
 that nto this webpage, so that the fans can get a true representation of the artist. At the same time
 I have produced a large ratio of images to content to avoid overloading the customer/fan with too much
 infomation and ultimatley being disinterested. If they want further infomation about the artist then 
 i've provided links to all of her social media at the footer of each page.
-
-Scope:
+</p>
+<h3>Scope:</h3>
 
 This is a fan webisite, so others can add content that they believe to be relevant and add
 on extra music released by the artist.
 
-User stories - 
+<h2>User stories -</h2>
 
-Visitor goals
+<h3>Visitor goals</h3>
 
 1) As a visitor who has recently discovered IAMDDB:
 
- i. I want to learn more about the artist's career and how she walks the path she's currently on.
- ii. I want to learn what type of artist she wants to become and if she's versitile in her music.
- iii. I want to get a feel for IAMDDB's style and personality though the website's design and features.
- iv. I want to have links to direct me to my favourite music app to listen to a specific song or albumn.
+ - I want to learn more about the artist's career and how she walks the path she's currently on.
+ - I want to learn what type of artist she wants to become and if she's versitile in her music.
+ - I want to get a feel for IAMDDB's style and personality though the website's design and features.
+ - I want to have links to direct me to my favourite music app to listen to a specific song or album.
 
  <img src="https://cal-brown99.github.io/IAMDDB/" alt="Image of the home page and the first section of writing" class="user-story-img-1">
 
@@ -69,11 +77,11 @@ Visitor goals
 
 2) As a visitor who is a fan of IAMDDB:
 
-  i. I want to discover new music released from this artist from the music page.
- ii. I want to explore the different merchandise the website has to offer.
- iii. I want to be able to navigate around the different pages swiftly and for it to be clear
-     as to where I need to navigate to get to where I want.
- iv. I want to feel like I've connected with IAMDDB after visiting the website.
+- I want to discover new music released from this artist from the music page.
+- I want to explore the different merchandise the website has to offer.
+- I want to be able to navigate around the different pages swiftly and for it to be clear
+  as to where I need to navigate to get to where I want.
+- I want to feel like I've connected with IAMDDB after visiting the website.
 
  <img src="https://cal-brown99.github.io/IAMDDB/shop.html" alt="Image of the nav bar at the top of the page" class="user-story-img-3">
 
@@ -87,13 +95,13 @@ As shown in the image above there's a wide variety of different IAMDDB style mer
 to choose from, this will make the hardcore fans very happy and feel closer to her once they've
 purchased a product. In turn this will also generate a profit margin from a buisness point of view.  
 
- Owner goals
+ <h3>Owner goals</h3>
 
- i. I want to connect IAMDDB's fans with her through undertanding of her career and personality.
- ii. I want to promote IAMDDB's merchandise and get more people representing it.
- iii. I want to promote some of IAMDDB's older or less popular songs/ albums through the music page.
+- I want to connect IAMDDB's fans with her through undertanding of her career and personality.
+- I want to promote IAMDDB's merchandise and get more people representing it.
+- I want to promote some of IAMDDB's older or less popular songs/ albums through the music page.
 
-Structure:
+<h3>Structure:</h3>
 
 I have designed my website to be largley something nice to look at rarther than a lot of information.
 Even though part of my UX is for the visitor to learn more about the artist, at the same time an 
@@ -106,7 +114,7 @@ As well as included links on the music page to direct the fan to their favourite
 song/albumn that they've selected.
 
 
-Skeleton:
+<h3>Skeleton:</h3>
 
 Page 1 (Home page) - This is where most of the content lies, explaining IAMDDB's career and getting to
  know her a little more as a person and connecting with her. Several images alongide the content to keep
@@ -118,7 +126,7 @@ Page 3 (Shop) - Contains a sign up button at the top to promote merchndise for c
  giving them 10% off their first purchase. Followed down the page is different images and links to varied
  mechandise.
 
- Surface:
+ <h3>Surface:</h3>
 
  I wanted to keep the site theme quite open with a range of different tones and colours to try and relate
  to the artists diversity in her music that's why I stuck with a few different proffessional colours such as 
@@ -133,7 +141,7 @@ Page 3 (Shop) - Contains a sign up button at the top to promote merchndise for c
 
 > - [Wireframes](docs/IAMDDB-Wireframe.pdf): Rough designs of how I egitnvisioned my website to be and the layout of it.
 
-Features:
+<h2>Features:</h2>
 
 I have laid out the website into several different pages with a Bootstrap Navabr at the top to navigate around the
 different sites, as well as having put in hyperlinks to click on to take you to the appropriate place.
@@ -146,7 +154,7 @@ different sites, as well as having put in hyperlinks to click on to take you to 
   change colour in accordance to the color scheme.
 - I have provided fans with direct links to the artists albums and singles on music platforms such as apple and spotify.
 
-Technologies & sites used:
+<h2>Technologies & sites used:</h2>
 
 - HTML
 - CSS 
@@ -158,7 +166,7 @@ Technologies & sites used:
 - Google chrome developer tools
 - Gitpod
 
- Testing/Bugs:
+ <h2>Testing/Bugs:</h2>
 
  Throughout my project I have encountered many diffrent bugs with my website, mainly from the use of
  bootstrap and having the elements I want to position/style being overwritten by the boiler-plate coding.
@@ -174,7 +182,7 @@ Technologies & sites used:
     </a>
 </p>
 
- Deployement:
+<h2>Deployement:</h2>
 
 1) Publishing
  
@@ -194,7 +202,7 @@ Just directly below the repository name there should be a clone or download butt
 go to a directory where the clone is wanting to be copied into.
 Type `Git Clone` and paste the URL, for your local clone simply press enter.
 
- Credits
+ <h2>Credits</h2>
 
  1)Media
 
