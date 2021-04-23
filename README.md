@@ -49,24 +49,49 @@ Visitor goals
 
 1) As a visitor who has recently discovered IAMDDB:
 
-  i. I want to learn more about the artist's career and how she walks the path she's currently on.
+ i. I want to learn more about the artist's career and how she walks the path she's currently on.
  ii. I want to learn what type of artist she wants to become and if she's versitile in her music.
-iii. I want to get a feel for IAMDDB's style and personality though the website's design and features.
+ iii. I want to get a feel for IAMDDB's style and personality though the website's design and features.
  iv. I want to have links to direct me to my favourite music app to listen to a specific song or albumn.
+
+ <img src="https://cal-brown99.github.io/IAMDDB/" alt="Image of the home page and the first section of writing" class="user-story-img-1">
+
+ From this image you can see that the fan visiting the website straight away gets a feel for what this
+ artist is about, with a brief background of Diana's early career as well as a few quotes stated. I feel
+ like this radiats her personality as there is bold colours, alongside powerful photos of herself. Showing
+ that she's a strong independent singer.
+
+ <img src="https://cal-brown99.github.io/IAMDDB/music.html" alt="Image of the music page, showing the albums with links provided" class="user-story-img-2">
+
+ This image shows that fans are provided with quick and easy links to both spotify and apple music, to
+ take them to see all of IAMDDB's albums as well as singles that may be harder to find out about. This in
+ turn will increase her fan base and allow people to discover more about her music and who she is.
 
 2) As a visitor who is a fan of IAMDDB:
 
   i. I want to discover new music released from this artist from the music page.
  ii. I want to explore the different merchandise the website has to offer.
-iii. I want to be able to navigate around the different pages swiftly and for it to be clear
+ iii. I want to be able to navigate around the different pages swiftly and for it to be clear
      as to where I need to navigate to get to where I want.
  iv. I want to feel like I've connected with IAMDDB after visiting the website.
 
+ <img src="https://cal-brown99.github.io/IAMDDB/shop.html" alt="Image of the nav bar at the top of the page" class="user-story-img-3">
+
+Here you can see that a visitor who is a fan will be happy with the fact there's a user 
+friendly easy to use navigation bar, making sure anyone who comes to my webpage will be able
+to move around my website and its different pages with ease.
+
+<img src="https://cal-brown99.github.io/IAMDDB/shop.html" alt="Image of merchandise sold on the website related to IAMDDB's music" class="user-story-img-4">
+
+As shown in the image above there's a wide variety of different IAMDDB style merchandise
+to choose from, this will make the hardcore fans very happy and feel closer to her once they've
+purchased a product. In turn this will also generate a profit margin from a buisness point of view.  
+
  Owner goals
 
-  i. I want to connect IAMDDB's fans with her through undertanding of her career and personality.
+ i. I want to connect IAMDDB's fans with her through undertanding of her career and personality.
  ii. I want to promote IAMDDB's merchandise and get more people representing it.
-iii. I want to promote some of IAMDDB's older or less popular songs/ albums through the music page.
+ iii. I want to promote some of IAMDDB's older or less popular songs/ albums through the music page.
 
 Structure:
 
@@ -141,6 +166,14 @@ Technologies & sites used:
  and what I could do to manipulate it. It's great to use this as you can edit the website in real time then
  when you have what you want being displayed, then you can input the code into github.
 
+ <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
  Deployement:
 
 1) Publishing
@@ -186,7 +219,7 @@ Type `Git Clone` and paste the URL, for your local clone simply press enter.
  https://ikeepitg.com/swervvvvv-vol-5-merch /*------ Shop model 3 */
  https://ikeepitg.com/product/vol-4-purple /*------ hoodie 1 */
  https://ikeepitg.com/product/vol-4-purple /*------ hoodie back 1 */
- https://ikeepitg.com/product/swerv-hoodie-3 /*------ hoodie 2 */
+ https://ikeepitg.com/product/vol-2-white-hoodie /*------ hoodie 2 */
  https://ikeepitg.com/product/vol-2-white-hoodie /*------ hoodie back 2 */
  https://ikeepitg.com/product/swerv-hoodie-3 /*------ hoodie 3 */
  https://ikeepitg.com/product/swerv-hoodie-3 /*------ hoodie back 3 */
