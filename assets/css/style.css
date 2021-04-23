@@ -1106,3 +1106,19 @@ footer {
 .icons i:hover {
     color: #B57A42;
 }
+
+.user-story-img-1 {
+    background: url("..images/user story img 1.png");
+}
+
+.user-story-img-2 {
+    background: url("..images/user story img 2.png");
+}
+
+.user-story-img-3 {
+    background: url("..images/user story img 3.png");
+}
+
+.user-story-img-2 {
+    background: url("..images/user story img 4.png");
+}
