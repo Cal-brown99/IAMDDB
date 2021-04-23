@@ -8,9 +8,6 @@
     background-size: cover;
     min-height: 650px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -26,9 +23,6 @@
     background-size: cover;
     min-height: 720px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -46,9 +40,6 @@
     background-size: cover;
     min-height: 1500px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -66,9 +57,6 @@
     background-size: cover;
     min-height: 1080px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -86,9 +74,6 @@
     background-size: cover;
     min-height: 720px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -106,9 +91,6 @@
     background-size: cover;
     min-height: 720px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .bg-title-t-shirts {
@@ -117,9 +99,6 @@
     background-size: cover;
     min-height: 1280px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 @media (max-width:600px) {
@@ -221,9 +200,6 @@ a:active {
     background-size: cover;
     background-position: center;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
     min-height: 650px;
 }
 
@@ -270,9 +246,6 @@ a:active {
     background-position: center;
     min-height: 650px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------------------------------------------------------------Music section 1 */
@@ -292,9 +265,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .album-img-2 {
@@ -304,9 +274,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .album-img-3 {
@@ -316,9 +283,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .album-img-4 {
@@ -328,9 +292,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .album-img-5 {
@@ -340,9 +301,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .single-img-1 {
@@ -352,9 +310,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .single-img-2 {
@@ -364,9 +319,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .single-img-3 {
@@ -376,9 +328,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .single-img-4 {
@@ -388,9 +337,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .single-img-5 {
@@ -400,9 +346,6 @@ a:active {
     background-position: center;
     min-height: 250px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .card-title {
@@ -448,9 +391,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 535px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .Shop-model-2 {
@@ -459,9 +399,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 535px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .Shop-model-3 {
@@ -470,9 +407,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 535px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .shop-content {
@@ -489,9 +423,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-1 {
@@ -501,9 +432,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-1 {
@@ -513,9 +441,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .card-title-shop:hover {
@@ -529,9 +454,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-2 {
@@ -541,9 +463,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-2 {
@@ -553,9 +472,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-1:hover {
@@ -564,9 +480,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-2:hover {
@@ -575,9 +488,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-1:hover {
@@ -586,9 +496,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-2:hover {
@@ -597,9 +504,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-1:hover {
@@ -608,9 +512,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-2:hover {
@@ -619,9 +520,6 @@ a:active {
     background-repeat: no-repeat;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------------------------------------------------------------Basket */
@@ -701,9 +599,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-1:hover {
@@ -713,9 +608,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-3 {
@@ -725,9 +617,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-3:hover {
@@ -737,9 +626,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-4 {
@@ -749,9 +635,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-4:hover {
@@ -761,9 +644,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-5 {
@@ -773,9 +653,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-5:hover {
@@ -785,9 +662,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-6 {
@@ -797,9 +671,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-img-6:hover {
@@ -809,9 +680,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .sweater-section {
@@ -835,9 +703,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-1:hover {
@@ -847,9 +712,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-3 {
@@ -859,9 +721,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-3:hover {
@@ -871,9 +730,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-4 {
@@ -883,9 +739,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-4:hover {
@@ -895,9 +748,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-5 {
@@ -907,9 +757,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-img-5:hover {
@@ -919,9 +766,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .hoodie-section {
@@ -945,9 +789,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-1:hover {
@@ -957,9 +798,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-3 {
@@ -969,9 +807,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-3:hover {
@@ -981,9 +816,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-4 {
@@ -993,9 +825,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-4:hover {
@@ -1005,9 +834,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-5 {
@@ -1017,9 +843,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-img-5:hover {
@@ -1029,9 +852,6 @@ a:active {
     background-position: center;
     min-height: 426px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .t-shirt-section {
@@ -1098,9 +918,6 @@ footer {
     font-size: 40px;
     color: #3B4242;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .icons i:hover {
